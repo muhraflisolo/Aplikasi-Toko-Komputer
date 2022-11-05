@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/already"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".product">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="850dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/backround" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:text="ASUS PRODUCT"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/pl"
+        android:onClick="LAPTOP" />
+
+    <ImageButton
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/ps"
+        android:onClick="SMARTPHONE" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/ph"
+        android:onClick="HEATSET" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="360dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/pk"
+        android:onClick="KEYBOARD" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="5dp"
+        android:text="Inspiring Innovation - Persistent Perfection"
+        android:textColor="@color/white" />
+
+        </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

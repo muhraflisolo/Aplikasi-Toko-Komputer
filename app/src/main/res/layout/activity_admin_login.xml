@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".admin_login">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="785dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:background="@drawable/back_home" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="115dp"
+        android:text="Welcome To Admin Login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:hint="Username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/teal_200"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/teal_200"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="8dp"
+        android:hint="Sign In As Admin"
+        android:onClick="SIGN"
+        android:textColorHint="#fff"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="1dp"
+        android:text="You need account ? Sign up"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+</RelativeLayout>

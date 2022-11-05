@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Admin_Page">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backround" />
+
+    <View
+        android:layout_width="347dp"
+        android:layout_height="224dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/staff" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="347dp"
+        android:layout_height="224dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="434dp"
+        android:background="@drawable/stock" />
+
+    <Button
+        android:id="@+id/tambahstaf"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="327dp"
+        android:onClick="ADDSTAFF"
+        android:text="Add Staff"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tambahstaf2"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="52dp"
+        android:onClick="ADDSTOCK"
+        android:text="Add Stock"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</RelativeLayout>
