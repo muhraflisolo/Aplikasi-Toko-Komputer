@@ -68,7 +68,7 @@
         android:layout_marginStart="13dp"
         android:layout_marginTop="430dp"
         android:background="@drawable/ph"
-        android:onClick="HEATSET" />
+        android:onClick="HEADSET" />
 
     <ImageButton
         android:id="@+id/imageButton2"

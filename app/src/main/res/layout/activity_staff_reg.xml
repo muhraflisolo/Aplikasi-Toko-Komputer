@@ -37,7 +37,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/eTusername"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
@@ -49,11 +49,11 @@
         android:textSize="15dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/eTpassword"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
-        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/eTusername"
+        android:layout_alignStart="@+id/eTusername"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="13dp"
@@ -63,11 +63,11 @@
         android:textSize="15dp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/eTconpassword"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
-        android:layout_alignStart="@+id/editText"
+        android:layout_below="@+id/eTusername"
+        android:layout_alignStart="@+id/eTusername"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="1dp"
         android:layout_marginTop="68dp"
@@ -77,15 +77,16 @@
         android:textSize="15dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonStaffReg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/eTconpassword"
+        android:layout_alignStart="@+id/eTconpassword"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="108dp"
         android:layout_marginTop="10dp"
         android:hint="SUBMIT"
+        android:onClick="SIGN"
         android:textColorHint="#fff"
         android:textSize="12dp"
         android:textStyle="bold" />
@@ -93,7 +94,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/buttonStaffReg"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="2dp"

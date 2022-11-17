@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -12,7 +13,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class SMARTPHONE extends AppCompatActivity {
+public class HEADSET extends AppCompatActivity {
 
     TextView Stock1, Stock2, Stock3, Stock4;
     String countStock;
@@ -37,23 +38,23 @@ public class SMARTPHONE extends AppCompatActivity {
         databaseReference.child("product").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if (snapshot.hasChild("S001")) {
-                    countStock = snapshot.child("S001").child("stock").getValue(String.class);
+                if (snapshot.hasChild("H001")) {
+                    countStock = snapshot.child("H001").child("stock").getValue(String.class);
                     Stock1.setText("STOCK: "+countStock);
                 }
 
-                if (snapshot.hasChild("S002")) {
-                    countStock = snapshot.child("S002").child("stock").getValue(String.class);
+                if (snapshot.hasChild("H002")) {
+                    countStock = snapshot.child("H002").child("stock").getValue(String.class);
                     Stock2.setText("STOCK: "+countStock);
                 }
 
-                if (snapshot.hasChild("S003")) {
-                    countStock = snapshot.child("S003").child("stock").getValue(String.class);
+                if (snapshot.hasChild("H003")) {
+                    countStock = snapshot.child("H003").child("stock").getValue(String.class);
                     Stock3.setText("STOCK: "+countStock);
                 }
 
-                if (snapshot.hasChild("S004")) {
-                    countStock = snapshot.child("S004").child("stock").getValue(String.class);
+                if (snapshot.hasChild("H004")) {
+                    countStock = snapshot.child("H004").child("stock").getValue(String.class);
                     Stock4.setText("STOCK: "+countStock);
                 }
             }

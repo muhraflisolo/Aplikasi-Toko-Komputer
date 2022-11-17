@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".HEATSET">
+    tools:context=".HEADSET">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -35,12 +35,13 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="111dp"
                 android:layout_marginTop="25dp"
-                android:text="ASUS HEATSET"
+                android:text="ASUS HEADSET"
                 android:textColor="@color/white"
                 android:textSize="25dp"
                 android:textStyle="bold" />
 
             <ImageButton
+                android:id="@+id/imageButton"
                 android:layout_width="375dp"
                 android:layout_height="190dp"
                 android:layout_alignParentTop="true"
@@ -49,26 +50,18 @@
                 android:layout_marginEnd="21dp"
                 android:background="@drawable/h1"/>
 
-            <ImageButton
-                android:layout_width="375dp"
-                android:layout_height="190dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="329dp"
-                android:background="@drawable/h2" />
-
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="375dp"
-                android:layout_height="190dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginStart="14dp"
-                android:layout_marginTop="585dp"
-                android:background="@drawable/h3" />
+            <TextView
+                android:id="@+id/tvStock1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton"
+                android:layout_below="@+id/imageButton"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
 
             <ImageButton
                 android:id="@+id/imageButton2"
@@ -77,9 +70,70 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="329dp"
+                android:background="@drawable/h2"/>
+
+            <TextView
+                android:id="@+id/tvStock2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton2"
+                android:layout_below="@+id/imageButton2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text="STOCK"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="375dp"
+                android:layout_height="190dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="585dp"
+                android:background="@drawable/h3"/>
+
+            <TextView
+                android:id="@+id/tvStock3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton3"
+                android:layout_below="@+id/imageButton3"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="375dp"
+                android:layout_height="190dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
                 android:layout_marginStart="14dp"
                 android:layout_marginTop="840dp"
                 android:background="@drawable/h4"/>
+
+            <TextView
+                android:id="@+id/tvStock4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton4"
+                android:layout_below="@+id/imageButton4"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
 
         </RelativeLayout>
     </ScrollView>

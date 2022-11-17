@@ -24,8 +24,8 @@ public class product extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void HEATSET (View view) {
-        Intent intent = new Intent(product.this, HEATSET.class);
+    public void HEADSET (View view) {
+        Intent intent = new Intent(product.this, HEADSET.class);
         startActivity(intent);
     }
 

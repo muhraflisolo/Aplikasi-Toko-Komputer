@@ -41,6 +41,7 @@
                 android:textStyle="bold" />
 
             <ImageButton
+                android:id="@+id/imageButton"
                 android:layout_width="375dp"
                 android:layout_height="190dp"
                 android:layout_alignParentTop="true"
@@ -49,7 +50,21 @@
                 android:layout_marginEnd="21dp"
                 android:background="@drawable/l1"/>
 
+            <TextView
+                android:id="@+id/tvStock1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton"
+                android:layout_below="@+id/imageButton"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
             <ImageButton
+                android:id="@+id/imageButton2"
                 android:layout_width="375dp"
                 android:layout_height="190dp"
                 android:layout_alignParentStart="true"
@@ -59,8 +74,21 @@
                 android:layout_marginTop="329dp"
                 android:background="@drawable/l2" />
 
+            <TextView
+                android:id="@+id/tvStock2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton2"
+                android:layout_below="@+id/imageButton2"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/imageButton3"
                 android:layout_width="375dp"
                 android:layout_height="190dp"
                 android:layout_alignParentStart="true"
@@ -70,8 +98,21 @@
                 android:layout_marginTop="585dp"
                 android:background="@drawable/l3" />
 
+            <TextView
+                android:id="@+id/tvStock3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton3"
+                android:layout_below="@+id/imageButton3"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/imageButton4"
                 android:layout_width="375dp"
                 android:layout_height="190dp"
                 android:layout_alignParentStart="true"
@@ -80,6 +121,19 @@
                 android:layout_marginStart="14dp"
                 android:layout_marginTop="840dp"
                 android:background="@drawable/l4"/>
+
+            <TextView
+                android:id="@+id/tvStock4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imageButton4"
+                android:layout_below="@+id/imageButton4"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
 
         </RelativeLayout>
     </ScrollView>
