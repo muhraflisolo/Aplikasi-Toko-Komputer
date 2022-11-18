@@ -22,7 +22,7 @@ public class KEYBOARD extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_headset);
+        setContentView(R.layout.activity_keyboard);
 
         Stock1 = findViewById(R.id.tvStock1);
         Stock2 = findViewById(R.id.tvStock2);

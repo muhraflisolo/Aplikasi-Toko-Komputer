@@ -21,15 +21,15 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        android:layout_width="181dp"
+        android:layout_height="26dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="331dp"
-        android:layout_marginEnd="114dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="88dp"
         android:text="Welcome To Staff Login"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -38,11 +38,11 @@
 
     <EditText
         android:id="@+id/eTusername"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
         android:layout_centerInParent="true"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="5dp"
         android:hint="Username"
         android:textColor="@color/white"
         android:textColorHint="@color/teal_200"
@@ -50,7 +50,7 @@
 
     <EditText
         android:id="@+id/eTpassword"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/eTusername"
         android:layout_alignStart="@+id/eTusername"
@@ -64,7 +64,7 @@
 
     <EditText
         android:id="@+id/eTconpassword"
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/eTusername"
         android:layout_alignStart="@+id/eTusername"
@@ -83,8 +83,8 @@
         android:layout_below="@+id/eTconpassword"
         android:layout_alignStart="@+id/eTconpassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="0dp"
         android:hint="SUBMIT"
         android:onClick="SIGN"
         android:textColorHint="#fff"

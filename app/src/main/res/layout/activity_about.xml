@@ -12,11 +12,10 @@
         android:background="@drawable/backround"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="258dp"
+        android:layout_marginTop="223dp"
         android:background="@drawable/cre" />
 
     <View
@@ -95,9 +94,48 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="89dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="231dp"
         android:text="TEAM MEMBER ASUS PROJEK 2"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginBottom="200dp"
+        android:text="Muhammad Rafli"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginBottom="179dp"
+        android:text="Irvan Pratama Putra"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginBottom="157dp"
+        android:text="Muhammad Farhan"
         android:textColor="@color/white"
         android:textStyle="bold" />
 </RelativeLayout>

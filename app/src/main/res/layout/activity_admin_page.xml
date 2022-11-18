@@ -13,20 +13,20 @@
         android:background="@drawable/backround" />
 
     <View
-        android:layout_width="347dp"
-        android:layout_height="224dp"
+        android:layout_width="320dp"
+        android:layout_height="215dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="35dp"
         android:background="@drawable/staff" />
 
     <View
         android:id="@+id/view"
-        android:layout_width="347dp"
-        android:layout_height="224dp"
+        android:layout_width="320dp"
+        android:layout_height="215dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="434dp"
+        android:layout_marginTop="335dp"
         android:background="@drawable/stock" />
 
     <Button
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="327dp"
+        android:layout_marginTop="265dp"
         android:onClick="ADDSTAFF"
         android:text="Add Staff"
         android:textColor="@color/white"
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="40dp"
         android:onClick="ADDSTOCK"
         android:text="Add Stock"
         android:textColor="@color/white"

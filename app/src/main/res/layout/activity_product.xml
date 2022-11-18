@@ -82,16 +82,16 @@
         android:background="@drawable/pk"
         android:onClick="KEYBOARD" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="5dp"
-        android:text="Inspiring Innovation - Persistent Perfection"
-        android:textColor="@color/white" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="62dp"
+                android:layout_marginBottom="7dp"
+                android:text="Inspiring Innovation - Persistent Perfection"
+                android:textColor="@color/white" />
 
         </RelativeLayout>
 </ScrollView>
